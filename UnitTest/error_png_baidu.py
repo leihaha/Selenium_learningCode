@@ -2,6 +2,9 @@
 from selenium import webdriver
 import unittest
 from time import sleep
+"""
+捕获错误截图
+"""
 
 
 class Baidu(unittest.TestCase):
@@ -29,7 +32,8 @@ class Baidu(unittest.TestCase):
         try:
             driver.find_element_by_id("kwdddd").send_keys("selenium")
         except:
-            driver.get_screenshot_as_file("E:\\WorkItem\\TestItem\\dyplm-2TestCase\\dyplmlit_testcase\\error_png\\kw.png")
+            driver.get_screenshot_as_file(
+                "E:\\WorkItem\\TestItem\\dyplm-2TestCase\\dyplmlit_testcase\\error_png\\kw.png")
 
         driver.find_element_by_id("su").click()
         sleep(5)

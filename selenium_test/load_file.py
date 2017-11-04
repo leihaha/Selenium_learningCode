@@ -3,7 +3,9 @@
 from selenium import webdriver
 import os
 from time import sleep
-
+"""
+上传文件
+"""
 driver = webdriver.Chrome()
 driver.implicitly_wait(10)
 

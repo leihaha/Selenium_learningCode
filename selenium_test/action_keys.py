@@ -3,6 +3,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys  # 引入Keys包
 from time import sleep
+"""
+键盘按键、组合键操作
+"""
 
 driver = webdriver.Chrome()
 

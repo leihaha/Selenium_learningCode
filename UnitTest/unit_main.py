@@ -2,6 +2,10 @@
 
 from PythonCode.widget import Widget
 import unittest
+"""
+使用main全局方法将一个单元测试模块编程可以直接运行的测试脚本
+main()方法使用TestLoader类来搜索所有包含在该模块中的测试方法并自动执行它们
+"""
 
 
 # 执行测试的类
@@ -22,10 +26,7 @@ class WidgetTestCase(unittest.TestCase):
     def tearDown(self):
         self.widget.dispose()
         self.widget = None
-"""
-使用main全局方法将一个单元测试模块编程可以直接运行的测试脚本
-main()方法使用TestLoader类来搜索所有包含在该模块中的测试方法并自动执行它们
-"""
+
 if __name__ == "__main__":
     unittest.main()   # 必须按约定以test开头命名所有测试方法
 

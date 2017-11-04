@@ -2,7 +2,10 @@
 
 from selenium import webdriver
 from time import sleep
-
+"""
+iframe操作
+switch_to.frame(),官方说使用name属性，实际操作证明id也可以
+"""
 
 driver = webdriver.Chrome()
 driver.get("http://www.126.com")

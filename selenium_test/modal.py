@@ -3,6 +3,9 @@
 from selenium import webdriver
 from time import sleep
 import os
+"""
+处理对话框（弹出框）
+"""
 
 if 'HTTP_PROXY' in os.environ:
     del os.environ['HTTP_PROXY']

@@ -14,6 +14,11 @@ driver.get("https://www.baidu.com")
     double_click()  双击
     drag_and_drop(element, target) 托动
     move_to_element() 悬停
+    key_down 模拟按键按下
+    key_up 模拟按键弹起
+    click_and_hold 鼠标左键点击不放
+    release 鼠标左键弹起，可与click_and_hold配合使用
+    move_to_element 把鼠标移动到元素的中心点
 """
 
 # 定位到要悬停的元素

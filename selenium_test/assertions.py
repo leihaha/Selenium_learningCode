@@ -2,7 +2,10 @@
 
 from selenium import webdriver
 from time import sleep
-
+"""
+断言
+验证
+"""
 driver = webdriver.Chrome()
 driver.get("https://www.baidu.com")
 

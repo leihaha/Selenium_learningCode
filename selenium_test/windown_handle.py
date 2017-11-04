@@ -2,6 +2,9 @@
 
 from selenium import webdriver
 from time import sleep
+"""
+处理多窗口
+"""
 
 driver = webdriver.Chrome()
 driver.implicitly_wait(30)

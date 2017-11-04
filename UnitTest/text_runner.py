@@ -2,6 +2,9 @@
 
 from PythonCode.widget import Widget
 import unittest
+"""
+使用TextTestRunner()方法执行测试
+"""
 
 
 # 执行测试的类
